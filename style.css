@@ -1,0 +1,27 @@
+.button-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 10px;
+}
+
+.nav-card {
+    width: 45%;
+    max-width: 150px;
+    text-align: center;
+    text-decoration: none;
+    color: #005f73;
+}
+
+.nav-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.nav-card span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
