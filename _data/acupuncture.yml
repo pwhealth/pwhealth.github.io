@@ -1,0 +1,28 @@
+- id: "whatis"
+  title: "What is it?"
+  heading: "Traditional Healing"
+  content: "Acupuncture balances the body's meridians..."
+
+- id: "howitworks"
+  title: "How it Works"
+  heading: "Restoring Flow"
+  content: "By unblocking obstructions, we restore movement..."
+
+- id: "firstvisit"
+  title: "First Visit"
+  heading: "Preparation"
+  content: "Wear loose clothing and eat a light meal..."
+
+- id: "pricing"
+  title: "Pricing & Hours"
+  heading: "Investment & Availability"
+  content: |
+    **Initial Consultation:** $XX  
+    **Follow-up Session:** $XX  
+    **Hours:** Mon–Fri by appointment.
+    **Location:** 1914 Colvin Blvd.
+
+- id: "faq"
+  title: "FAQ"
+  heading: "Common Questions"
+  content: "Do the needles hurt? No, they are hair-thin..."
