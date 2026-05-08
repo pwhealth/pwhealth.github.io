@@ -3,25 +3,22 @@ layout: default
 title: Acupuncture
 ---
 
-<div class="tab-menu">
-    <button onclick="showTab('info')">Info</button>
-    <button onclick="showTab('benefits')">Benefits</button>
-    <button onclick="showTab('faq')">FAQ</button>
-</div>
+<!-- Tab Menu: Generated from the Data File -->
+<nav class="tab-menu">
+  {% for item in site.data.acupuncture %}
+    <button class="tab-link {% if forloop.first %}active{% endif %}" 
+            onclick="openTab(event, '{{ item.id }}')">
+      {{ item.title }}
+    </button>
+  {% endfor %}
+</nav>
 
-<div id="info" class="tab-content">
-    <h3>Acupuncture Info</h3>
-    <p>Details about the practice go here.</p>
+<!-- Tab Content: Generated from the Data File -->
+<div class="tab-content-container">
+  {% for item in site.data.acupuncture %}
+    <div id="{{ item.id }}" class="tab-pane" style="display: {% if forloop.first %}block{% else %}none{% endif %};">
+      <h2>{{ item.heading }}</h2>
+      <p>{{ item.content | newline_to_br }}</p>
+    </div>
+  {% endfor %}
 </div>
-
-<div id="benefits" class="tab-content" style="display:none">
-    <h3>Benefits</h3>
-    <p>Why this is good for you.</p>
-</div>
-
-<script>
-function showTab(id) {
-    document.querySelectorAll('.tab-content').forEach(el => el.style.display = 'none');
-    document.getElementById(id).style.display = 'block';
-}
-</script>
