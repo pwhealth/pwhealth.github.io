@@ -1,0 +1,27 @@
+---
+layout: default
+title: Acupuncture
+---
+
+<div class="tab-menu">
+    <button onclick="showTab('info')">Info</button>
+    <button onclick="showTab('benefits')">Benefits</button>
+    <button onclick="showTab('faq')">FAQ</button>
+</div>
+
+<div id="info" class="tab-content">
+    <h3>Acupuncture Info</h3>
+    <p>Details about the practice go here.</p>
+</div>
+
+<div id="benefits" class="tab-content" style="display:none">
+    <h3>Benefits</h3>
+    <p>Why this is good for you.</p>
+</div>
+
+<script>
+function showTab(id) {
+    document.querySelectorAll('.tab-content').forEach(el => el.style.display = 'none');
+    document.getElementById(id).style.display = 'block';
+}
+</script>
