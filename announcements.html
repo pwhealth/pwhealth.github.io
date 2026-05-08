@@ -1,0 +1,19 @@
+---
+layout: default
+title: Announcements
+---
+
+<h2>Latest News</h2>
+
+{% for post in site.posts %}
+  <div class="news-item">
+    <h3>{{ post.title }}</h3>
+    <small>{{ post.date | date: "%B %d, %y" }}</small>
+    {{ post.content }}
+  </div>
+  <hr>
+{% endfor %}
+
+<div class="social-embed">
+    <!-- Paste your X/Instagram embed code here -->
+</div>
