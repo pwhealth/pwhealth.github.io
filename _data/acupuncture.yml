@@ -1,66 +1,29 @@
-
-  - id: "howitworks"
+- id: "howitworks"
   title: "How it Works"
   heading: "What is Acupuncture"
   content: |
-  Acupuncture, involves the stimulation and balancing of the body through the use of acupuncture points which lie along communication pathways in the body called meridians. These points and meridians are manipulated through physical means, electrical impulses, heating with moxibustion or the tdp lamp, or the use of a needle. When most people here the word Acupuncture, they think of the small needles which are used.
-  Acupuncture is a part of Chinese Medicine, and works best when used according to the classical Chinese understanding of health and disease. As my teacher in Jinan China told me, "when prescribing western medicine use western medicine, when prescribing Chinese medicine, use Chinese medicine." In this way, we believe Acupuncture and Chinese medicine can best serve as complementary therapy in the modern world.
-  In the simplest sense, disorders in the body occur when there is blockage along the meridian, or if there is an insufficiency in the meridian. Treatment aimed at unblocking the obstruction and promoting movement, or supplementing the insufficiency can restore balance to the body. When the body is balanced, normal communication has been restored, and the body can continue to heal and strengthen itself.
+    Acupuncture involves stimulating points along meridians to balance the body, utilizing physical methods, heat, or needles. It is part of Chinese Medicine, which serves as a complementary therapy in the modern world. Treatments aim to unblock obstructions and restore bodily balance.
 
 - id: "whatis"
   title: "What is it?"
   heading: "Traditional Healing"
   content: |
-  Chinese medicine is a complete system of medicine with its own theories of normal physiology and disease pathology. These theories are part of the natural sciences of premodern China which evolved from generations of observation and recording of the changes around us. Over time, this system of medicine has developed a rich understanding of health and disease, and has developed its own methods to promote health along with methods to diagnose, prevent and treat disease.
-  One of the central tenants of Chinese natural science is that man and the world around him form an inseparable whole. Observing and understanding this natural law has allowed the development of an understanding that man himself forms a small, connected universe which mirrors, and is influenced by, the larger universe surrounding him.
-  Through observation of the natural environment, two basic theories about the nature of the world arose, yin yang theory 陰陽學說, and five phase theory五行學說. Both of these theories are a way to classify and categorize objects and events in the natural world. Additionally, both contain laws of movement, connection, and interaction within and among the categories. These two basic theories are part of a tradition in China of observing, recording, and contemplating the nature of the universe.
-  It is because of this rich tradition that the ancient Chinese discovered that the man's body mirrored the world around them. Through observation, these early scientists and observers discovered that everything in the world is interconnected, perpetually in motion, and always changing. They also discovered that the world does not move in a random and chaotic manner, but that the world moved according to patterns and cycles that exert a subtle influence on everything around us, and that there was nothing in this world, including man, which could escape from this influence.
-  It is these discoveries that form the basis for the traditional science and philosophies of ancient China, including the knowledge contained in Daoism and Confucianism.  Chinese medicine is also part of this rich tradition, focusing on the health and well-being of man.
-  As part of a tradition which includes the accumulation of thousands of years of experience and understanding of the world, Chinese medicine has evolved into a unique medical system. This medical system is most readily recognized by its therapeutic methods, namely acupuncture and moxibustion針灸, Chinese herbal medicine方劑, Tuina 推拿 massage, qigong 氣功 breathing exercises and Chinese dietary therapy 食療. When applied skillfully, these therapeutic methods have proven to be quite powerful and effective in promoting health and fighting disease.
-  --adapted from Chinese Medical Theory Volume I - Fundamentals, by Kevin Juliano
+    Chinese medicine is a complete system rooted in ancient observation, viewing man as a microcosm connected to the universe. It utilizes yin-yang and five-phase theories, along with therapies like acupuncture, herbs, massage, and qigong to promote health and fight disease, as described in "Chinese Medical Theory Volume I - Fundamentals" by Kevin Juliano.
 
 - id: "firstvisit"
   title: "First Visit"
   heading: "Preparation for your first Treatment"
   content: |
-  It is important that you don't skip any meals before the scheduled treatment.  Think of it similar to if you were going to exercise.  
-  Please wear clean clothing with loose fitting tops and pants. You should be able to roll your sleeves or pant legs up comfortably without it pinching the arms or legs.
-  It is also important for the skin to be clean, or else the preparation of the needle site will not meet with Clean Needle Technique guidelines.
+    Do not skip meals, and wear loose-fitting clothing with clean skin. Prepare for the treatment similarly to exercising.
 
 - id: "pricing"
   title: "Pricing & Hours"
   heading: "Pricing and Hours"
   content: |
-  Price per treatment is $55. The Initial Consultation is an extra $25.
-  We do not currently accept insurance billing. Many do not have health insurance which covers acupuncture or herbal medicine. If we were to accept insurance we would have to raise our prices in order to cover the added expense of dealing with insurance. We feel that it is more important to keep treatment more affordable for everyone. It is this policy that allows us to charge such a low rate per treatment.
-  However, for those patients who are eligible for payment reimbursement, we will provide a payment receipt which can be submitted for to your coverage provider. We also offer simple cash receipts, on request, for your own records as well.
-  We accept payment in cash, check and credit card.
-  Cost for medical record request - $0.75 per page, plus postage if mailing is requested.
-  Clinic Hours
-  By appointment only. Some limited availability at other times. Please call, text or email to inquire.
-  
-  Monday 1:00pm-6:00pm
-  Tuesday 9:30am-2:00pm
-  Wednesday Closed
-  Thursday 1:00pm-6:00pm
-  Friday 9:30am-2:00pm
-  Saturday Closed
-  Sunday Closed
+    Treatments are $55, with an extra $25 for the initial consultation. Insurance is not accepted to keep costs low, but receipts for reimbursement are provided. Hours are by appointment only (Mon/Thu: 1-6pm, Tue/Fri: 9:30am-2pm).
 
 - id: "faq"
   title: "FAQ"
   heading: "Common Questions"
   content: |
-  Are the needles clean?
-  At Peaceful Water Acupuncture, we only use single use, disposable, sterile needles. This means that the needle is sealed in its packaging from the factory until right before it is used in your treatment.
-  Is it painful?
-  Most patients feel little to no discomfort with the needles, but from time to time patients describe a sensation of pain no stronger than a mosquito bite. There are times, however, where due to the nature of the patient's condition they may feel a stronger pain when the needles are stimulated which quickly disperses after the stimulation is stopped.
-  
-  How many treatments will I need?
-  Usually, disorders in the body which we suffer from develop over a period of time. Sometimes this is a few hours, other times it is over a few years. Normally, a series of treatments is recommended to resolve a condition. Each case and condition is different, but we recommend that patients try for 3-4 treatments before deciding if they are making improvements. There are times where the disorder will become better little by little with each treatment, and there are also times when the patient will feel an immediate relief which only lasts temporarily.
-  
-  Should I consult with my physician regarding getting acupuncture?
-  It is advisable to always inform your physician about any treatment that you are seeking and it is also very important to have a list of medications and supplements that you are taking available during your first consultation. In the modern clinic, we view acupuncture as complimentary medicine that is not intended to take the place of your primary care Physician. If you are seeking help for a condition about which you have not consulted with a licensed physician, we strongly suggest that you also schedule a consultation with a physician as well.
-  
-  If you have any other questions, please feel free to contact via phone, text, or email
-  
+    We use single-use, sterile, disposable needles with minimal discomfort. A series of 3-4 treatments is recommended for best results. Acupuncture is considered complementary, and you should always inform your primary physician.
