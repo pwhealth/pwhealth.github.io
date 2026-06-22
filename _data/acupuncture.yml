@@ -1,29 +1,31 @@
 - id: "howitworks"
-  title: "How it Works"
+  title: "Whatisacu"
   heading: "What is Acupuncture"
   content: |
-    Acupuncture involves stimulating points along meridians to balance the body, utilizing physical methods, heat, or needles. It is part of Chinese Medicine, which serves as a complementary therapy in the modern world. Treatments aim to unblock obstructions and restore bodily balance.
+  Acupuncture, involves the stimulation and balancing of the body through the use of acupuncture points which lie along communication pathways in the body called meridians. These points and meridians are manipulated through physical means, electrical impulses, heating with moxibustion, or the use of a needle. When most people here the word Acupuncture, they think of the small needles which are used.
+  Acupuncture is a part of Chinese Medicine, and works best when used according to the classical Chinese understanding of health and disease. As my teacher in Jinan China told me, "when prescribing western medicine use western medicine, when prescribing Chinese medicine, use Chinese medicine." In this way, we believe Acupuncture and Chinese medicine can best serve as complementary therapy in the modern world.
+  In the simplest sense, disorders in the body occur when there is blockage along the meridian, or if there is an insufficiency in the meridian. Treatment aimed at unblocking the obstruction and promoting movement, or supplementing the insufficiency can restore balance to the body. When the body is balanced, normal communication has been restored, and the body can continue to heal and strengthen itself.
 
-- id: "whatis"
-  title: "What is it?"
-  heading: "Traditional Healing"
+- id: "whatiscm"
+  title: "What is Chinese Medicine?"
+  heading: "Chinese Medicine"
   content: |
-    Chinese medicine is a complete system rooted in ancient observation, viewing man as a microcosm connected to the universe. It utilizes yin-yang and five-phase theories, along with therapies like acupuncture, herbs, massage, and qigong to promote health and fight disease, as described in "Chinese Medical Theory Volume I - Fundamentals" by Kevin Juliano.
+    Chinese medicine is a comprehensive system based on ancient observations of nature, including yin yang and five-phase theories. It views the human body as a connected universe, aiming to harmonize it with the surrounding environment. Key therapeutic methods include acupuncture, moxibustion, herbal medicine, Tuina massage, qigong, and dietary therapy, adapted from Chinese Medical Theory Volume I.
 
 - id: "firstvisit"
   title: "First Visit"
   heading: "Preparation for your first Treatment"
   content: |
-    Do not skip meals, and wear loose-fitting clothing with clean skin. Prepare for the treatment similarly to exercising.
+    Please do not skip meals before treatment. Wear loose, comfortable clothing, such as clean tops and pants, that allow for easy access to arms and legs. Clean skin is required for compliance with Clean Needle Technique guidelines.
 
 - id: "pricing"
   title: "Pricing & Hours"
   heading: "Pricing and Hours"
   content: |
-    Treatments are $55, with an extra $25 for the initial consultation. Insurance is not accepted to keep costs low, but receipts for reimbursement are provided. Hours are by appointment only (Mon/Thu: 1-6pm, Tue/Fri: 9:30am-2pm).
+    Treatment is $55, with an initial consultation fee of $25. We do not accept insurance, enabling us to keep prices low. Payment is accepted via cash, check, or credit card. We provide receipts for reimbursement. Hours are by appointment: Monday (1-6 PM), Tuesday (9:30 AM-2 PM), Thursday (1-6 PM), and Friday (9:30 AM-2 PM), with limited availability.
 
 - id: "faq"
   title: "FAQ"
   heading: "Common Questions"
   content: |
-    We use single-use, sterile, disposable needles with minimal discomfort. A series of 3-4 treatments is recommended for best results. Acupuncture is considered complementary, and you should always inform your primary physician.
+    We use sterile, single-use, disposable needles. Most patients experience minimal discomfort. A series of treatments is typically recommended, with 3-4 sessions suggested to assess improvements. Inform your physician about any treatment, as acupuncture is considered complementary medicine. Contact us with any questions.
