@@ -1,4 +1,4 @@
-- id: "whatisacu"
+-- id: "whatisacu"
   title: "What is Acupuncture"
   heading: "What is Acupuncture"
   content: 'Acupuncture, involves the stimulation and balancing of the body through the use of acupuncture points which lie along communication pathways in the body called meridians. These points and meridians are manipulated through physical means, electrical impulses, heating with moxibustion, or the use of a needle. When most people here the word Acupuncture, they think of the small needles which are used.<br><br>Acupuncture is a part of Chinese Medicine, and works best when used according to the classical Chinese understanding of health and disease. As my teacher in Jinan China told me, "when prescribing western medicine use western medicine, when prescribing Chinese medicine, use Chinese medicine." In this way, we believe Acupuncture and Chinese medicine can best serve as complementary therapy in the modern world.<br><br>In the simplest sense, disorders in the body occur when there is blockage along the meridian, or if there is an insufficiency in the meridian. Treatment aimed at unblocking the obstruction and promoting movement, or supplementing the insufficiency can restore balance to the body. When the body is balanced, normal communication has been restored, and the body can continue to heal and strengthen itself.'
@@ -11,17 +11,19 @@
 - id: "firstvisit"
   title: "First Visit"
   heading: "Preparation for your first Treatment"
-  content: |
-    Please do not skip meals before treatment. Wear loose, comfortable clothing, such as clean tops and pants, that allow for easy access to arms and legs. Clean skin is required for compliance with Clean Needle Technique guidelines.
-
+  content: "It is important that you don't skip any meals before the scheduled treatment.<br><br>Please wear clean clothing with loose fitting tops and pants. You should be able to roll your sleeves or pant legs up comfortably without it pinching the arms or legs.<br><br>It is also important for the skin to be clean, or else the preparation of the needle site will not meet with Clean Needle Technique guidelines."
+ 
 - id: "pricing"
-  title: "Pricing & Hours"
-  heading: "Pricing and Hours"
-  content: |
-    Treatment is $55, with an initial consultation fee of $25. We do not accept insurance, enabling us to keep prices low. Payment is accepted via cash, check, or credit card. We provide receipts for reimbursement. Hours are by appointment: Monday (1-6 PM), Tuesday (9:30 AM-2 PM), Thursday (1-6 PM), and Friday (9:30 AM-2 PM), with limited availability.
+  title: "Pricing"
+  heading: "Pricing"
+  content: "Price per treatment is $55. The Initial Consultation is an extra $25.<br><br>We do not currently accept insurance billing. Many do not have health insurance which covers acupuncture or herbal medicine. If we were to accept insurance we would have to raise our prices in order to cover the added expense of dealing with insurance. We feel that it is more important to keep treatment more affordable for everyone. It is this policy that allows us to charge such a low rate per treatment.<br><br>However, for those patients who are eligible for payment reimbursement, we will provide a payment receipt which can be submitted for to your coverage provider. We also offer simple cash receipts, on request, for your own records as well.<br><br>We accept payment in cash, check and credit card.<br><br>Cost for medical record request: $0.75 per page, plus postage if mailing is requested."
 
+- id: "hours"
+  title: "Hours"
+  heading: "Hours"
+  content: "By appointment only. Some limited availability at other times. Please call, text or email to inquire.<br><br>Monday 1:00pm-6:00pm<br><br>Tuesday 9:30am-2:00pm<br><br>Wednesday Closed<br><br>Thursday 1:00pm-6:00pm<br><br>Friday 9:30am-2:00pm<br><br>Saturday Closed<br><br>Sunday Closed"
+  
 - id: "faq"
   title: "FAQ"
   heading: "Common Questions"
-  content: |
-    We use sterile, single-use, disposable needles. Most patients experience minimal discomfort. A series of treatments is typically recommended, with 3-4 sessions suggested to assess improvements. Inform your physician about any treatment, as acupuncture is considered complementary medicine. Contact us with any questions.
+  content: "<p class="FAQ-Question">Are the needles clean?</p><br><br>At Peaceful Water Acupuncture, we only use single use, disposable, sterile needles. This means that the needle is sealed in its packaging from the factory until right before it is used in your treatment.<br><br><p class="FAQ-Question">Is it painful?</p><br><br>Most patients feel little to no discomfort with the needles, but from time to time patients describe a sensation of pain no stronger than a mosquito bite. There are times, however, where due to the nature of the patient's condition they may feel a stronger pain when the needles are stimulated which quickly disperses after the stimulation is stopped.<br><br><p class="FAQ-Question">How many treatments will I need?</p><br><br>Usually, disorders in the body which we suffer from develop over a period of time. Sometimes this is a few hours, other times it is over a few years. Normally, a series of treatments is recommended to resolve a condition. Each case and condition is different, but we recommend that patients try for 3-4 treatments before deciding if they are making improvements. There are times where the disorder will become better little by little with each treatment, and there are also times when the patient will feel an immediate relief which only lasts temporarily.<br><br><p class="FAQ-Question">Should I consult with my physician regarding getting acupuncture?</p><br><br>It is advisable to always inform your physician about any treatment that you are seeking and it is also very important to have a list of medications and supplements that you are taking available during your first consultation. In the modern clinic, we view acupuncture as complimentary medicine that is not intended to take the place of your primary care Physician. If you are seeking help for a condition about which you have not consulted with a licensed physician, we strongly suggest that you also schedule a consultation with a physician as well.<br><br>If you have any other questions, please feel free to contact us at questions@peacefulwaterhealth.com"
