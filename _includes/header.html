@@ -1,16 +1,21 @@
-<header style="background-color: #003366; padding: 20px; display: flex; align-items: center; justify-content: center; flex-wrap: wrap;">
-    <!-- Your Square Icon -->
-    <img src="/assets/images/logoscroll.png" alt="Peaceful Water Health logo" style="height: 80px; width: auto; margin-right: 15px;">
-    
-    <!-- Your Branding Text -->
-    <div style="color: white; font-family: serif; font-size: 1.8rem; letter-spacing: 1px; text-align: center;">
-        Peaceful Water Health
+<header class="site-header" aria-label="Peaceful Water Health site header">
+    <div class="site-branding">
+        <img
+            class="site-logo"
+            src="{{ '/assets/images/logoscroll.png' | relative_url }}"
+            alt="Peaceful Water Health logo"
+            onerror="this.style.display='none'; document.getElementById('brand-name-fallback').style.display='inline-flex';"
+        >
+
+        <div id="brand-name-fallback" class="site-branding-text" aria-live="polite">
+            Peaceful Water Health
+        </div>
     </div>
 </header>
 
-<nav style="background: #f8f9fa; padding: 10px; text-align: center; border-bottom: 1px solid #ddd;">
-    <a href="/" style="margin: 0 15px; text-decoration: none; color: #005f73; font-weight: bold;">Home</a>
-    <a href="/announcements" style="margin: 0 15px; text-decoration: none; color: #005f73; font-weight: bold;">Announcements</a>
+<nav class="top-nav" aria-label="Main navigation">
+    <a href="/" class="top-nav-link">Home</a>
+    <a href="/announcements" class="top-nav-link">Announcements</a>
 </nav>
 
 <script src="{{ '/assets/js/main.js' | relative_url }}"></script>

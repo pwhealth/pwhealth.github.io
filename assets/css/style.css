@@ -1,3 +1,63 @@
+.site-header {
+    background: linear-gradient(135deg, #003a5d 0%, #004c7a 55%, #005f73 100%);
+    padding: 0.9rem 1rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.site-branding {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 72px;
+    gap: 0.75rem;
+}
+
+.site-logo {
+    display: block;
+    width: auto;
+    height: 64px;
+    max-width: 100%;
+    object-fit: contain;
+    filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.12));
+}
+
+.site-branding-text {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #f4efe8;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(1.2rem, 4vw, 2.1rem);
+    line-height: 1.1;
+    letter-spacing: 0.04em;
+    font-weight: 600;
+    text-transform: none;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.18);
+}
+
+.top-nav {
+    background: #f6f3ee;
+    padding: 0.75rem 1rem;
+    text-align: center;
+    border-bottom: 1px solid #dfe4e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.25rem;
+}
+
+.top-nav-link {
+    margin: 0;
+    text-decoration: none;
+    color: #005f73;
+    font-weight: 700;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.95rem;
+    letter-spacing: 0.02em;
+}
+
 .button-grid {
     display: flex;
     flex-wrap: wrap;
@@ -25,6 +85,7 @@
     margin-top: 10px;
     font-weight: bold;
 }
+
 .tab-menu {
     display: flex;
     justify-content: space-around;
@@ -53,7 +114,46 @@
 }
 
 .tab-link.active {
-    color: #5a7d9a; /* Your serene blue */
+    color: #5a7d9a;
     border-bottom: 3px solid #5a7d9a;
     font-weight: 600;
 }
+
+@media (min-width: 600px) {
+    .site-header {
+        padding: 1.1rem 1.5rem;
+    }
+
+    .site-branding {
+        min-height: 82px;
+    }
+
+    .site-logo {
+        height: 78px;
+    }
+
+    .top-nav-link {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 900px) {
+    .site-header {
+        padding: 1.4rem 1.75rem;
+    }
+
+    .site-branding {
+        min-height: 92px;
+        gap: 1rem;
+    }
+
+    .site-logo {
+        height: 90px;
+    }
+
+    .site-branding-text {
+        font-size: clamp(1.8rem, 2vw, 2.8rem);
+        letter-spacing: 0.05em;
+    }
+}
+
