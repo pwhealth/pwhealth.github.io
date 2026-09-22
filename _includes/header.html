@@ -1,11 +1,13 @@
 <header class="site-header" aria-label="Peaceful Water Health site header">
     <div class="site-branding">
-        <img
-            class="site-logo"
-            src="{{ '/assets/images/logoscroll.png' | relative_url }}"
-            alt="Peaceful Water Health logo"
-            onerror="this.style.display='none'; document.getElementById('brand-name-fallback').style.display='inline-flex';"
-        >
+        <a class="site-logo-link" href="{{ '/' | relative_url }}" aria-label="Peaceful Water Health home">
+            <img
+                class="site-logo"
+                src="{{ '/assets/images/logoscroll.png' | relative_url }}"
+                alt="Peaceful Water Health logo"
+                onerror="this.style.display='none'; document.getElementById('brand-name-fallback').style.display='inline-flex';"
+            >
+        </a>
 
         <div id="brand-name-fallback" class="site-branding-text" aria-live="polite">
             Peaceful Water Health
