@@ -1,17 +1,21 @@
+body {
+    margin: 0;
+}
+
 .site-header {
     position: relative;
     min-height: 168px;
-    padding-top: 8px;
     box-sizing: border-box;
 }
 
 .site-header::before {
     content: "";
     position: absolute;
-    top: 8px;
+    top: 50%;
     right: 0;
     left: 0;
     height: 104px;
+    transform: translateY(-50%);
     background: url("../images/headerbanner.png") center / cover no-repeat;
 }
 
@@ -142,11 +146,9 @@
 @media (min-width: 600px) {
     .site-header {
         min-height: 193px;
-        padding-top: 10px;
     }
 
     .site-header::before {
-        top: 10px;
         height: 120px;
     }
 
@@ -170,11 +172,9 @@
 @media (min-width: 900px) {
     .site-header {
         min-height: 228px;
-        padding-top: 12px;
     }
 
     .site-header::before {
-        top: 12px;
         height: 140px;
     }
 
