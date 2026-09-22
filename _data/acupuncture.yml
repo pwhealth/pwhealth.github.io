@@ -17,9 +17,24 @@
   title: "Pricing"
   heading: "Pricing"
   content: "Price per treatment is $55. The Initial Consultation is an extra $25.<br><br>We do not currently accept insurance billing. Many do not have health insurance which covers acupuncture or herbal medicine. If we were to accept insurance we would have to raise our prices in order to cover the added expense of dealing with insurance. We feel that it is more important to keep treatment more affordable for everyone. It is this policy that allows us to charge such a low rate per treatment.<br><br>However, for those patients who are eligible for payment reimbursement, we will provide a payment receipt which can be submitted for to your coverage provider. We also offer simple cash receipts, on request, for your own records as well.<br><br>We accept payment in cash, check and credit card.<br><br>Cost for medical record request: $0.75 per page, plus postage if mailing is requested."
-
+ 
 - id: "hours"
   title: "Hours"
   heading: "Hours"
-  content: "By appointment only. Some limited availability at other times. Please call, text or email to inquire.<br><br>Monday 1:00pm-6:00pm<br><br>Tuesday 9:30am-2:00pm<br><br>Wednesday Closed<br><br>Thursday 1:00pm-6:00pm<br><br>Friday 9:30am-2:00pm<br><br>Saturday Closed<br><br>Sunday Closed"
-  
+  content: |
+    By appointment only. Some limited availability at other times.
+    Please call, text or email to inquire.
+
+    Monday 1:00pm-6:00pm
+
+    Tuesday 9:30am-2:00pm
+
+    Wednesday Closed
+
+    Thursday 1:00pm-6:00pm
+
+    Friday 9:30am-2:00pm
+
+    Saturday Closed
+
+    Sunday Closed
