@@ -216,18 +216,20 @@ body {
 .about-hero img,
 .space-gallery img,
 .practitioner > img {
+    display: block;
     width: 100%;
-    object-fit: cover;
+    height: auto;
+    object-fit: contain;
     border-radius: 2px;
 }
 
 .about-hero img {
-    height: 560px;
+    max-height: 560px;
 }
 
 .eyebrow {
     color: #a16f4b;
-    font-size: 0.75rem;
+    font-size: 2rem;
     font-weight: 700;
     letter-spacing: 0.16em;
     text-transform: uppercase;
@@ -280,7 +282,8 @@ p {
 }
 
 .space-gallery img {
-    height: 330px;
+    aspect-ratio: auto;
+    max-height: 330px;
 }
 
 .practitioner {
@@ -291,7 +294,7 @@ p {
 }
 
 .practitioner > img {
-    height: 570px;
+    max-height: 570px;
 }
 
 .text-link {
@@ -326,7 +329,7 @@ p {
     }
 
     .about-hero img {
-        height: 380px;
+        max-height: 380px;
     }
 
     .space-gallery {
@@ -335,7 +338,7 @@ p {
 
     .space-gallery img,
     .practitioner > img {
-        height: 300px;
+        max-height: 300px;
     }
 }
 
