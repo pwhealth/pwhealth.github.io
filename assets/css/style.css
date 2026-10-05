@@ -282,7 +282,8 @@ p {
 }
 
 .space-gallery img {
-    height: 330px;
+    height: auto;
+    aspect-ratio: 3 / 2;
     object-fit: cover;
 }
 
@@ -339,10 +340,6 @@ p {
     .space-gallery img,
     .practitioner > img {
         max-height: 300px;
-    }
-
-    .space-gallery img {
-        height: 240px;
     }
 
     .about-quote {
