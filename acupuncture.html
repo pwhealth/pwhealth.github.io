@@ -3,22 +3,34 @@ layout: default
 title: Acupuncture
 ---
 
-<!-- Tab Menu: Generated from the Data File -->
-<nav class="tab-menu">
-  {% for item in site.data.acupuncture %}
-    <button class="tab-link {% if forloop.first %}active{% endif %}" 
-            onclick="openTab(event, '{{ item.id }}')">
-      {{ item.title }}
-    </button>
+<main class="about-page acupuncture-page">
+  {% assign section_order = "whatisacu,pricing,hours,firstvisit,faq,whatiscm" | split: "," %}
+  {% for section_id in section_order %}
+    {% assign item = site.data.acupuncture | where: "id", section_id | first %}
+    <section class="sections acupuncture-section">
+      <div>
+        <p class="eyebrow">
+          {% case section_id %}
+            {% when "whatisacu" %}What is Acupuncture?
+            {% when "firstvisit" %}First Visit
+            {% when "faq" %}FAQ
+            {% else %}{{ item.title }}
+          {% endcase %}
+        </p>
+        {% if section_id == "firstvisit" %}
+          {% assign visit_content = item.content | split: "<p class='FAQ-Question'>" | first | strip %}
+          <p>{{ visit_content }}</p>
+        {% elsif section_id == "faq" %}
+          {% assign faq_items = item.content | split: "<p class='FAQ-Question'>" %}
+          {% for faq_content in faq_items offset: 1 %}
+            {% assign question_and_answer = faq_content | split: "</p><br><br>" %}
+            <h2>{{ question_and_answer.first }}</h2>
+            <p>{{ question_and_answer.last }}</p>
+          {% endfor %}
+        {% else %}
+          <p>{{ item.content | newline_to_br }}</p>
+        {% endif %}
+      </div>
+    </section>
   {% endfor %}
-</nav>
-
-<!-- Tab Content: Generated from the Data File -->
-<div class="tab-content-container">
-  {% for item in site.data.acupuncture %}
-    <div id="{{ item.id }}" class="tab-pane" style="display: {% if forloop.first %}block{% else %}none{% endif %};">
-      <h2>{{ item.heading }}</h2>
-      <p>{{ item.content | newline_to_br }}</p>
-    </div>
-  {% endfor %}
-</div>
+</main>
